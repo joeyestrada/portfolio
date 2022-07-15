@@ -2,10 +2,10 @@ import React from "react";
 
 export default function ContactMe() {
   return (
-    <div className="my-5">
+    <div className="my-5" id="contactme">
       <div className="col container">
         <h2>
-          Contact Me <i class="bi bi-person-rolodex"></i>
+          Contact Me <i className="bi bi-person-rolodex"></i>
         </h2>
         <p>
           As a soon-to-be-graduate of Thinkful's Software Engineering Immersion
@@ -18,7 +18,7 @@ export default function ContactMe() {
               href="mailto:joeyestradamusic@gmail.com"
               className="btn btn-info"
             >
-              Email <i class="bi bi-envelope"></i>
+              Email <i className="bi bi-envelope"></i>
             </a>
           </div>
           <div className="col">
@@ -26,7 +26,7 @@ export default function ContactMe() {
               href="https://www.linkedin.com/in/joseph-estrada/"
               className="btn btn-info"
             >
-              LinkedIn <i class="bi bi-linkedin"></i>
+              LinkedIn <i className="bi bi-linkedin"></i>
             </a>
           </div>
         </div>

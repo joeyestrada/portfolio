@@ -50,9 +50,9 @@ export default function WhereIveWorked() {
   };
 
   return (
-    <div className="container my-5">
+    <div className="container my-5" id="previousjobs">
       <h2>
-        Where I've worked <i class="bi bi-bookmark-star"></i>
+        Where I've worked <i className="bi bi-bookmark-star"></i>
       </h2>
       <div className="row">
         <div className="row mx-auto mb-1 col-md-3">

@@ -33,8 +33,10 @@ export default function Projects() {
   };
 
   return (
-    <div className="container my-5">
-      <h2>Projects <i class="bi bi-body-text"></i></h2>
+    <div className="container my-5" id="projects">
+      <h2>
+        Projects <i className="bi bi-body-text"></i>
+      </h2>
       <div className="card text-center mt-3">
         <div className="card-header">
           <ul className="nav nav-tabs card-header-tabs">{projectsList()}</ul>

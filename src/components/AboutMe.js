@@ -3,11 +3,13 @@ import profilePic from "../images/joey.jpg";
 
 export default function AboutMe() {
   return (
-    <div className="my-5">
+    <div className="my-5" id="aboutme">
       <div className="container">
         <div className="row">
           <div className="row col-md-8">
-            <h3 className="mt-3">About Me <i class="bi bi-book"></i></h3>
+            <h3 className="mt-3">
+              About Me <i className="bi bi-book"></i>
+            </h3>
             <p>
               If you knew me personally, you'd know that I love the art that is
               creation. Whether it’s creating music or software, my heart is
