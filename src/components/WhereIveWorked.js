@@ -27,7 +27,7 @@ export default function WhereIveWorked() {
         >
           {job.company}
           {job.company === currentJob && (
-            <h5 className="bi bi-arrow-right-square my-auto" />
+            <h5 className="bi bi-arrow-right-square my-auto"> </h5>
           )}
         </button>
       );

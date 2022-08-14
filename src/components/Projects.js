@@ -55,6 +55,7 @@ export default function Projects() {
           )}
         </div>
         <img
+          alt={currentProject.title}
           src={currentProject.photo}
           style={{ width: "90%" }}
           className="mx-auto mb-3"

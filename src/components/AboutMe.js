@@ -56,6 +56,7 @@ export default function AboutMe() {
           </div>
           <div className="col">
             <img
+              alt="joey"
               src={profilePic}
               className="my-5 border border-2 border-info rounded"
               style={{ width: "100%" }}
