@@ -46,8 +46,13 @@ export default function Projects() {
           <h6 className="card-text">{currentProject.description}</h6>
           <p>{currentProject.technology.join(" | ")}</p>
           <a href={currentProject.link} className="btn btn-info">
-            Link to GitHub Repo
+            GitHub Repo
           </a>
+          {currentProject.deployment && (
+            <a href={currentProject.deployment} className="btn btn-info mx-1">
+              Deployed App
+            </a>
+          )}
         </div>
         <img
           src={currentProject.photo}

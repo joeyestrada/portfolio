@@ -9,7 +9,7 @@ export default function HomePage() {
           Joey Estrada. <i className="bi bi-cassette-fill"></i>
         </h1>
         <p>
-          I am a career-swticher from pro-audio and instrument sales to software
+          I am a career-switcher from pro-audio and instrument sales to software
           development, based in Central Florida. I am currently a student
           enrolled in Thinkful's Software Engineering Immersion program.
         </p>

@@ -8,7 +8,7 @@ export default function ContactMe() {
           Contact Me <i className="bi bi-person-rolodex"></i>
         </h2>
         <p>
-          As a soon-to-be-graduate of Thinkful's Software Engineering Immersion
+          As a graduate of Thinkful's Software Engineering Immersion
           program, I'd love to speak with you about any opportunities you may
           have.
         </p>

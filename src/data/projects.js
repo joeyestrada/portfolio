@@ -1,8 +1,27 @@
 import flashcard from "../images/flashcardapp.png";
 import welovemovies from "../images/welovemovies.png";
 import locallibrary from "../images/locallibrary.png";
+import rra from "../images/rra.png";
 
 export const projects = [
+  {
+    title: "Restaurant Reservation App",
+    description:
+      "Full-stack application that allows restaurants to create, edit, and cancel reservations, and to seat or finish reservations.",
+    technology: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "Bootstrap",
+      "Express.js",
+      "Knex",
+      "Node.js",
+      "PostgreSQL",
+    ],
+    link: "https://github.com/joeyestrada/restaurant-reservation-app",
+    deployment: "https://rrajefrontend.herokuapp.com/",
+    photo: rra,
+  },
   {
     title: "Flashcard App",
     description:
