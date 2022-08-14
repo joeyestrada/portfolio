@@ -5,6 +5,9 @@ export default function WhereIveWorked() {
   const [currentJob, setCurrentJob] = useState(jobs[0].company);
 
   const clickHandler = (event) => {
+    if (event.target.value === undefined) {
+      return;
+    }
     setCurrentJob(event.target.value);
   };
 
@@ -34,7 +37,7 @@ export default function WhereIveWorked() {
   const readJob = () => {
     const jobStuff = jobs.find((job) => job.company === currentJob);
     if (!jobStuff) {
-      return <p>Loading...</p>
+      return <p>Loading...</p>;
     }
     return (
       <>
