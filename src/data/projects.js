@@ -33,7 +33,7 @@ export const projects = [
   {
     title: "WeLoveMovies",
     description:
-      "Backend application helping users view, create, and update movie reviews and movie listings in theaters near them.",
+      "A Backend application helping users view, create, and update movie reviews and movie listings in theaters near them.",
     technology: ["Express.js", "Node.js", "Knex", "JavaScript"],
     link: "https://github.com/joeyestrada/WeLoveMovies",
     photo: welovemovies,
