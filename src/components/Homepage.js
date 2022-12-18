@@ -10,8 +10,8 @@ export default function HomePage() {
         </h1>
         <p>
           I am a career-switcher from pro-audio and instrument sales to software
-          development, based in Central Florida. I am currently a student
-          enrolled in Thinkful's Software Engineering Immersion program.
+          development, based in Central Florida. I am a graduate of Thinkful's
+          Software Engineering Immersion program.
         </p>
       </div>
     </div>
