@@ -37,7 +37,7 @@ export default function WhereIveWorked() {
   const readJob = () => {
     const jobStuff = jobs.find((job) => job.company === currentJob);
     if (!jobStuff) {
-      return <p>Loading...</p>;
+      return <p>Loading..</p>;
     }
     return (
       <>
