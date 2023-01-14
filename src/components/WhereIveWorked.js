@@ -56,14 +56,14 @@ export default function WhereIveWorked() {
 
   return (
     <div className="container my-5" id="previousjobs">
-      <h2>
+      <h2 data-aos="fade-right">
         Where I've worked <i className="bi bi-bookmark-star"></i>
       </h2>
       <div className="row">
-        <div className="row mx-auto mb-3 mb-1 col-md-3">
+        <div className="row mx-auto mb-3 mb-1 col-md-3" data-aos="fade-right">
           <div className="list-group">{listJobs()}</div>
         </div>
-        <div className="col mx-auto">{readJob()}</div>
+        <div className="col mx-auto" data-aos="fade-left">{readJob()}</div>
       </div>
     </div>
   );

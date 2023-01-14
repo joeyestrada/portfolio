@@ -7,10 +7,10 @@ export default function AboutMe() {
       <div className="container">
         <div className="row">
           <div className="row col-md-8">
-            <h3 className="mt-3">
+            <h3 className="mt-3" data-aos="fade-left">
               About Me <i className="bi bi-book"></i>
             </h3>
-            <p>
+            <p data-aos="fade-right" data-aos-delay="500" data-aos-once="true">
               If you knew me personally, you'd know that I love the art that is
               creation. Whether it’s creating music or software, my heart is
               only truly happy when my brain is hard at work making something
@@ -18,7 +18,7 @@ export default function AboutMe() {
               child, trying to hack some of my favorite computer games for an
               unrealistic high score to show off to my friends at school.
             </p>
-            <p>
+            <p data-aos="fade-right" data-aos-delay="1000" data-aos-once="true">
               Today, I am a career-swticher, from music-related sales in
               pro-audio and band instruments, to now a full-stack developer.
               Working at a mom-and-pop shop in Central Florida, I was tasked
@@ -27,7 +27,7 @@ export default function AboutMe() {
               came to find the platform a bit restrictive, thus my interest in
               web development started to unfold.
             </p>
-            <p>
+            <p data-aos="fade-right" data-aos-delay="1500" data-aos-once="true">
               Not too long after that, I decided to transition into becoming a
               full-stack developer by enrolling in Thinkful’s Software
               Engineering Immersion program, a five-month intense coding
@@ -42,8 +42,6 @@ export default function AboutMe() {
                       <li>Node.js</li>
                       <li>React</li>
                       <li>Express.js</li>
-                    </div>
-                    <div className="col">
                       <li>Postgres</li>
                       <li>Git</li>
                       <li>Jest</li>
@@ -60,6 +58,8 @@ export default function AboutMe() {
               src={profilePic}
               className="my-5 border border-2 border-info rounded"
               style={{ width: "100%" }}
+              data-aos="fade-left"
+              data-aos-once="true"
             />
           </div>
         </div>
